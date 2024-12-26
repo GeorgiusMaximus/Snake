@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 800px;
+}
+
+h1 {
+    color: #333;
+}
+
+canvas {
+    border: 1px solid #333;
+    margin-top: 20px;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.highscores {
+    margin-top: 20px;
+}
+
+.highscores h2 {
+    margin-bottom: 10px;
+}
+
+.highscores ol {
+    padding-left: 0;
+    list-style-type: none;
+}
